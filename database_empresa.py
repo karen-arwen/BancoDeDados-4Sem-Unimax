@@ -26,6 +26,8 @@ resultados = cursor.fetchall()
 for linha in resultados:
     print(linha)
 
+
+
 cursor.close()
 conexao.close()
 
